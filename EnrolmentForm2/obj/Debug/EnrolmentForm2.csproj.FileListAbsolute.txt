@@ -1,0 +1,12 @@
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\bin\Debug\EnrolmentForm2.exe.config
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\bin\Debug\EnrolmentForm2.exe
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\bin\Debug\EnrolmentForm2.pdb
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.csproj.AssemblyReference.cache
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.Properties.Resources.resources
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.csproj.GenerateResource.cache
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.csproj.CoreCompileInputs.cache
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.exe
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.pdb
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.CourseForm.resources
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.EnrolmentForm.resources
+F:\Projects\VisualStudio2022\source\repos\EnrolmentForm2\EnrolmentForm2\obj\Debug\EnrolmentForm2.StudentForm.resources

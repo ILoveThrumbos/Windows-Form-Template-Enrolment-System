@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" />
+  <xs:element name="EnrolStudent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="studentID" type="xs:int" />
+        <xs:element minOccurs="0" name="courseID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EnrolStudentResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEnrolmentByCourseID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="courseID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEnrolmentByCourseIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" minOccurs="0" name="GetEnrolmentByCourseIDResult" nillable="true" type="q1:Enrolment1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEnrolments">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetEnrolmentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" minOccurs="0" name="GetEnrolmentsResult" nillable="true" type="q2:ArrayOfEnrolment1" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

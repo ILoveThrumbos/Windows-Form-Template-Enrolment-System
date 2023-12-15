@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="7f84e47e-729e-49e3-bb6d-622c527dae3b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="EnrolmentAdmin.xsd" MetadataType="Schema" ID="1c2aeeef-14a4-4e96-81c5-2959d935c15c" SourceId="1" SourceUrl="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?xsd=xsd0" />
+    <MetadataFile FileName="EnrolmentAdmin1.xsd" MetadataType="Schema" ID="f37bb6cb-621b-4526-bb8c-d65a28bc1083" SourceId="1" SourceUrl="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?xsd=xsd2" />
+    <MetadataFile FileName="Enrolment.wsdl" MetadataType="Wsdl" ID="77c2fe91-50fb-45d9-b38c-e3e59094d73c" SourceId="1" SourceUrl="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?wsdl" />
+    <MetadataFile FileName="EnrolmentAdmin.disco" MetadataType="Disco" ID="afc41422-7d72-4d34-a867-6b7912bd73bc" SourceId="1" SourceUrl="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?disco" />
+    <MetadataFile FileName="EnrolmentAdmin2.xsd" MetadataType="Schema" ID="689aba00-b5df-47e6-b5e0-8e2aac4bf37b" SourceId="1" SourceUrl="https://enrolmentadminservice20231122212937.azurewebsites.net/EnrolmentAdmin.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

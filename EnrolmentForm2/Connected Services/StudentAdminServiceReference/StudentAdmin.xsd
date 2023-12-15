@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://enrolmentadminservice20231122212937.azurewebsites.net/StudentAdmin.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" />
+  <xs:element name="NewStudent">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StudentID" type="xs:int" />
+        <xs:element minOccurs="0" name="studentName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DateEnrolled" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="NewStudentResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViewStudent">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ViewStudentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" minOccurs="0" name="ViewStudentResult" nillable="true" type="q1:ArrayOfStudent" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StudentTimetable">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StudentTimetableResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/EnrolmentAdminService" minOccurs="0" name="StudentTimetableResult" nillable="true" type="q2:ArrayOfTimetableEntry" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
